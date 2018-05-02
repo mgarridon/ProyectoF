@@ -3,7 +3,11 @@
 one:
   descripcion: MyString
   precio: 1
+  proveedor: one
+  sucursal: one
 
 two:
   descripcion: MyString
   precio: 1
+  proveedor: two
+  sucursal: two

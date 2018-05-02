@@ -1,3 +1,4 @@
 class Producto < ApplicationRecord
-  has_many :sucursals
+  belongs_to :proveedor
+  belongs_to :sucursal
 end
