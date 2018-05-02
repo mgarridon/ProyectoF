@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  id_factura: 1
+  id_producto: 1
+  cant_comp: 1
+  precio_comp: 1
+  fecha_comp: 1
+  proveedor: one
+
+two:
+  id_factura: 1
+  id_producto: 1
+  cant_comp: 1
+  precio_comp: 1
+  fecha_comp: 1
+  proveedor: two

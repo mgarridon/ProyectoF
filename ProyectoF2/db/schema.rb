@@ -10,56 +10,79 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2018_05_02_014239) do
+ActiveRecord::Schema.define(version: 2018_05_02_221549) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
-  create_table "producto2s", force: :cascade do |t|
-    t.string "descripcion"
-    t.integer "precio"
-    t.bigint "vendedor_id"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-    t.index ["vendedor_id"], name: "index_producto2s_on_vendedor_id"
-  end
-
-  create_table "productos", force: :cascade do |t|
-    t.string "descripcion"
-    t.integer "precio"
-    t.bigint "proveedor_id"
-    t.bigint "sucursal_id"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-    t.index ["proveedor_id"], name: "index_productos_on_proveedor_id"
-    t.index ["sucursal_id"], name: "index_productos_on_sucursal_id"
-  end
-
-  create_table "proveedors", force: :cascade do |t|
+  create_table "clientes", force: :cascade do |t|
     t.string "nombre"
-    t.integer "telefono"
-    t.string "tipo_producto"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-  end
-
-  create_table "sucursals", force: :cascade do |t|
-    t.string "nombre"
-    t.string "direccion"
-    t.integer "telefono"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-  end
-
-  create_table "vendedors", force: :cascade do |t|
-    t.string "nombre"
+    t.string "apellido"
     t.integer "telefono"
     t.string "correo"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
 
-  add_foreign_key "producto2s", "vendedors"
-  add_foreign_key "productos", "proveedors"
-  add_foreign_key "productos", "sucursals"
+  create_table "comp_invs", force: :cascade do |t|
+    t.bigint "compra_id"
+    t.bigint "inventario_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["compra_id"], name: "index_comp_invs_on_compra_id"
+    t.index ["inventario_id"], name: "index_comp_invs_on_inventario_id"
+  end
+
+  create_table "compras", force: :cascade do |t|
+    t.integer "id_factura"
+    t.integer "id_producto"
+    t.integer "cant_comp"
+    t.integer "precio_comp"
+    t.integer "fecha_comp"
+    t.bigint "proveedor_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["proveedor_id"], name: "index_compras_on_proveedor_id"
+  end
+
+  create_table "inv_vens", force: :cascade do |t|
+    t.bigint "venta_id"
+    t.bigint "inventario_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["inventario_id"], name: "index_inv_vens_on_inventario_id"
+    t.index ["venta_id"], name: "index_inv_vens_on_venta_id"
+  end
+
+  create_table "inventarios", force: :cascade do |t|
+    t.string "descripcion_prod"
+    t.integer "cant_prod"
+    t.integer "precio_inv"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "proveedors", force: :cascade do |t|
+    t.string "descrip_pro"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "venta", force: :cascade do |t|
+    t.bigint "cliente_id"
+    t.integer "id_producto_venta"
+    t.integer "cantidad_venta"
+    t.integer "precio_venta"
+    t.integer "fecha_venta"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["cliente_id"], name: "index_venta_on_cliente_id"
+  end
+
+  add_foreign_key "comp_invs", "compras"
+  add_foreign_key "comp_invs", "inventarios"
+  add_foreign_key "compras", "proveedors"
+  add_foreign_key "inv_vens", "inventarios"
+  add_foreign_key "inv_vens", "venta", column: "venta_id"
+  add_foreign_key "venta", "clientes"
 end

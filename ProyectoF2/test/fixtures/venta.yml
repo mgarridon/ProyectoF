@@ -1,17 +1,15 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  nombre_producto: MyString
-  precio: 1
-  total_productos: 1
   cliente: one
-  inventario: one
-  producto: one
+  id_producto_venta: 1
+  cantidad_venta: 1
+  precio_venta: 1
+  fecha_venta: 1
 
 two:
-  nombre_producto: MyString
-  precio: 1
-  total_productos: 1
   cliente: two
-  inventario: two
-  producto: two
+  id_producto_venta: 1
+  cantidad_venta: 1
+  precio_venta: 1
+  fecha_venta: 1

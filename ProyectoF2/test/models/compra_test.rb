@@ -1,6 +1,6 @@
 require 'test_helper'
 
-class SucursalTest < ActiveSupport::TestCase
+class CompraTest < ActiveSupport::TestCase
   # test "the truth" do
   #   assert true
   # end
