@@ -4,8 +4,14 @@ one:
   nombre_producto: MyString
   precio: 1
   total_productos: 1
+  cliente: one
+  inventario: one
+  producto: one
 
 two:
   nombre_producto: MyString
   precio: 1
   total_productos: 1
+  cliente: two
+  inventario: two
+  producto: two

@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  nombre_produc: MyString
+  cantidad: 1
+  venta: one
+  producto: one
+
+two:
+  nombre_produc: MyString
+  cantidad: 1
+  venta: two
+  producto: two
