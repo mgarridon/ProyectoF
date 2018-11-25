@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5a52414f-ead8-40f3-bb19-8a47d3495b3e" name="Default" comment="">
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/ProyectoF2/app/models/inventario.rb" beforeDir="false" afterPath="$PROJECT_DIR$/ProyectoF2/app/models/inventario.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProyectoF2/app/models/proveedor.rb" beforeDir="false" afterPath="$PROJECT_DIR$/ProyectoF2/app/models/proveedor.rb" afterDir="false" />
+>>>>>>> b3017cc5503f1ee61db90d486ad3d381383f2b25
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -12,6 +17,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
+<<<<<<< HEAD
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="schema.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ProyectoF2/db/schema.rb">
@@ -36,6 +42,14 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="15">
               <caret line="1" column="32" selection-start-line="1" selection-start-column="32" selection-end-line="1" selection-end-column="32" />
+=======
+    <leaf>
+      <file leaf-file-name="inventario.rb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ProyectoF2/app/models/inventario.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+>>>>>>> b3017cc5503f1ee61db90d486ad3d381383f2b25
             </state>
           </provider>
         </entry>
@@ -48,8 +62,13 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/ProyectoF2/db/schema.rb" />
         <option value="$PROJECT_DIR$/ProyectoF2/app/models/cliente.rb" />
+=======
+        <option value="$PROJECT_DIR$/ProyectoF2/app/models/inventario.rb" />
+        <option value="$PROJECT_DIR$/ProyectoF2/app/models/proveedor.rb" />
+>>>>>>> b3017cc5503f1ee61db90d486ad3d381383f2b25
       </list>
     </option>
   </component>
@@ -75,6 +94,51 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+<<<<<<< HEAD
+=======
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="ProyectoF" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProyectoF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ProyectoF" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProyectoF" type="462c0819:PsiDirectoryNode" />
+              <item name="ProyectoF2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ProyectoF" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProyectoF" type="462c0819:PsiDirectoryNode" />
+              <item name="ProyectoF2" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ProyectoF" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProyectoF" type="462c0819:PsiDirectoryNode" />
+              <item name="ProyectoF2" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ProyectoF" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProyectoF" type="462c0819:PsiDirectoryNode" />
+              <item name="ProyectoF2" type="462c0819:PsiDirectoryNode" />
+              <item name="db" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ProyectoF" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProyectoF" type="462c0819:PsiDirectoryNode" />
+              <item name="ProyectoF2" type="462c0819:PsiDirectoryNode" />
+              <item name="db" type="462c0819:PsiDirectoryNode" />
+              <item name="migrate" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+>>>>>>> b3017cc5503f1ee61db90d486ad3d381383f2b25
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -158,19 +222,33 @@
       <updated>1525192000605</updated>
       <workItem from="1525192002140" duration="19000" />
       <workItem from="1525218952124" duration="82000" />
+<<<<<<< HEAD
       <workItem from="1525298588536" duration="2186000" />
       <workItem from="1525301378285" duration="2813000" />
       <workItem from="1542686281063" duration="11000" />
+=======
+      <workItem from="1525933293256" duration="271000" />
+>>>>>>> b3017cc5503f1ee61db90d486ad3d381383f2b25
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="5111000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="64" y="-11" width="1303" height="780" extended-state="6" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.34511915" />
+=======
+    <option name="totallyTimeSpent" value="372000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="65" y="-4" width="1295" height="667" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2972973" />
+>>>>>>> b3017cc5503f1ee61db90d486ad3d381383f2b25
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -198,6 +276,7 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/ProyectoF2/db/schema.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1290">
@@ -230,10 +309,26 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="24" lean-forward="true" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+=======
+    <entry file="file://$PROJECT_DIR$/ProyectoF2/db/migrate/20180502221151_create_inventarios.rb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProyectoF2/db/migrate/20180502221221_create_inv_vens.rb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProyectoF2/db/migrate/20180502221453_create_proveedors.rb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProyectoF2/app/models/proveedor.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="20" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
+>>>>>>> b3017cc5503f1ee61db90d486ad3d381383f2b25
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ProyectoF2/app/models/cliente.rb">
+<<<<<<< HEAD
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" column="32" selection-start-line="1" selection-start-column="32" selection-end-line="1" selection-end-column="32" />
@@ -251,6 +346,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+=======
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProyectoF2/db/migrate/20180502221524_create_compras.rb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProyectoF2/db/migrate/20180502221549_create_comp_invs.rb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProyectoF2/app/models/inventario.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+>>>>>>> b3017cc5503f1ee61db90d486ad3d381383f2b25
         </state>
       </provider>
     </entry>
